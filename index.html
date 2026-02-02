@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator exercise</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h2>Calculator</h2>
+    <div class="container">
+      <div class="input__display">
+        <div id="display"></div>
+      </div>
+      <div class="input__buttons">
+        <div class="row">
+          <button onclick="addOne()" class="numbers">1</button>
+          <button onclick="addTwo()" class="numbers">2</button>
+          <button onclick="addThree()" class="numbers">3</button>
+          <button onclick="plus()" class="symbol">+</button>
+        </div>
+        <div class="row">
+          <button onclick="addFour()" class="numbers">4</button>
+          <button onclick="addFive()" class="numbers">5</button>
+          <button onclick="addSix()" class="numbers">6</button>
+          <button onclick="minus()" class="symbol">-</button>
+        </div>
+        <div class="row">
+          <button onclick="addSeven()" class="numbers">7</button>
+          <button onclick="addEight()" class="numbers">8</button>
+          <button onclick="addNine()" class="numbers">9</button>
+          <button onclick="multiply()" class="symbol">*</button>
+        </div>
+        <div class="row">
+          <button onclick="addZero()" class="numbers">0</button>
+          <button onclick="decimal()" class="symbol">.</button>
+          <button onclick="equals()" class="symbol">=</button>
+          <button onclick="divide()" class="symbol">/</button>
+        </div>
+        <button onclick="clearCalc()" class="btn__clear">Clear</button>
+      </div>
+    </div>
+    <br>
+    Made by Aviva N. | 2026
+  </body>
+</html>
